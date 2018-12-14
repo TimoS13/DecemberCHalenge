@@ -1,4 +1,26 @@
-#plaatjes{
-    margin: 20px;
+@media all and (max-device-width: 550px){
+    img#logo{
+        filter: invert(100%);
+        display: block;
+        margin: auto;
+    }
+   #logo\+links,a{
+       color: whitesmoke;
+       background-color: black;
+   }
+   table{
+       border: none;
+
+
+   }
+   #Prijzen{
+       display: none;
+   }
+   #highlights, #advies{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+
+
 }
 
